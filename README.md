@@ -5,12 +5,17 @@
 - 所以，结合Vim和Markdown，基本就可以达到传说中的"键"不离手了！
 - 注意: VimMarkdown 适用于有一定开发基础的用户
 
+
 # markdown文件位置 
 ```
 ./markdown/mark.md
 ```
 
-# 依赖: php环境/nginx环境
+# 依赖
+- PHP环境(请自行百度) 
+- nginx环境(请自行百度) 
+- [github-markdown-css样式](https://github.com/sindresorhus/github-markdown-css)
+- [php-markdown解析组件](https://github.com/michelf/php-markdown)
 
 # 安装步骤
 ## 第一步: 安装composer
