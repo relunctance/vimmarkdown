@@ -21,6 +21,12 @@
 include './vendor/autoload.php';
 
 $markfile = "./markdown/mark.md";
+
+if (!file_exists($markfile)) {
+	echo "not exists: $markfile";
+	exit;
+}
+
 $text = file_get_contents($markfile);
 
 use Michelf\MarkdownExtra;
