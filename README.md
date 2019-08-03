@@ -1,5 +1,3 @@
-#!/bin/sh
-
 # 说明:
 - vimmarkdown 用于有一定开发基础,想用Vim神器编辑markdown的用户
 
